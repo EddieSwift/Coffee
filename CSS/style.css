@@ -1,0 +1,131 @@
+body {
+
+    background-color: navajowhite;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+
+    height: 25em;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+
+    color: rgba(3, 150, 100, 1);
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 6.25rem;
+    margin: 0;
+    text-align: center;
+    padding-top: 1em;
+}
+
+main{
+    position: relative;
+    padding: 0 1em;
+}
+
+section{
+    width: 50%;
+    position: absolute;
+}
+
+#right{
+    top: 0;
+    right: 0;
+}
+
+article {
+
+    border-bottom: 1px solid #e4bb97;
+    margin: 6em 1em;
+    padding-bottom: 4em;
+    height: 17em;
+    overflow: auto;
+}
+
+/*ul {*/
+
+    /*margin: 0 auto;*/
+/*}*/
+
+/*li {*/
+
+    /*list-style: none;*/
+    /*border-bottom: 1px solid chocolate;*/
+    /*margin: 2em;*/
+    /*padding: 2em;*/
+/*}*/
+
+h2 {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #a54817;
+    background-color: #ffac3d;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    text-align: left;
+}
+
+p {
+
+    color: #444444;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+a:link {
+
+    color: limegreen;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9em;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: darkgreen;
+}
+
+a:hover {
+
+    color: red;
+}
+
+a:active {
+
+    color: yellow;
+}
+
+/*#left {*/
+
+    /*position: relative;*/
+    /*height: 100%;*/
+    /*width: 50%;*/
+    /*height: auto;*/
+    /*right: 0;*/
+/*}*/
+
+/*#right {*/
+
+    /*position: absolute;*/
+    /*width: 50%;*/
+    /*height: auto;*/
+    /*left: 50%;*/
+    /*bottom: 0;*/
+/*}*/
+
